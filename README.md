@@ -1,7 +1,7 @@
 # 資料同化(Data Assimilation)
 
 ## 目的
-使用 Lorenz 40-variable model (Lorenz-96 model)，實作 OI、3DVAR、 EKF 及 EnKF 等資料同化方法，並探討背景誤差協方差矩陣(background error covariance, BEC)及觀測資料分布對於同化結果之影響。
+實作 OI、3DVAR、 EKF 及 EnKF 等資料同化方法，並探討背景誤差協方差矩陣(background error covariance, BEC)及觀測資料分布對於同化結果之影響。
 
 ## 模式與資料同化系統之設定
 ### 模式設定
