@@ -12,10 +12,10 @@
 >形成真值、觀測資料及初始分析場之流程
 
 ### 資料同化系統設定
-><img width="709" alt="image" src="https://user-images.githubusercontent.com/52215353/173625307-047ee6d2-6397-41ed-b997-7f6bbe98e20c.png">
+><img width="958" alt="image" src="https://user-images.githubusercontent.com/52215353/173625966-dde89405-f366-4602-91b8-bf3c0011c0b9.png">
 >穩態 BEC 產生流程圖(Lien, 2020)
 
-><img width="745" alt="image" src="https://user-images.githubusercontent.com/52215353/173625502-2d9b5a62-2399-41ac-9ff7-75b025fc8a1a.png">
+><img width="1007" alt="image" src="https://user-images.githubusercontent.com/52215353/173626016-b587200b-176e-4ca5-8ba6-9081f490da0e.png">
 >NMC 方法(Lien, 2020)
 
 $$P^b = \alpha E \left(\left[{x_f}^{(t_{2})}-{x_f}^{(t_{1})}\right]\left[{x_f}^{(t_{2})}-{x_f}^{(t_{1})}\right]^T\right) $$
