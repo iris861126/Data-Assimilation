@@ -22,8 +22,7 @@ x_a_init = np.array(solver.y, dtype='f8')
 
 x_no_da_save = x_a_init
 
-#%%
-# create no DA run
+#%% create no DA run
 solver = ode(lorenz96.f).set_integrator('dopri5')
 solver.set_initial_value(x_a_init, 0.).set_f_params(F)
 
@@ -33,7 +32,6 @@ while solver.successful() and tt <= nT:
     x_no_da_save = np.vstack([x_no_da_save, [solver.y]])
     tt += 1
 
-#%%
-# save the initial condition for DA experiment
+#%% save the initial condition for DA experiment
 np.savetxt('x_a_init.txt', x_a_init)
 np.savetxt('x_no_da_save.txt', x_no_da_save)
