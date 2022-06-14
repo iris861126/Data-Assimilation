@@ -25,7 +25,6 @@ x_a_init = np.genfromtxt('x_a_init.txt')
 # load observations
 y_o_save = np.genfromtxt('x_o_save.txt')
 
-
 # load truth
 x_t_save = np.genfromtxt('x_t.txt')
 
@@ -37,7 +36,6 @@ Pb = np.genfromtxt('Pb.txt')    #initial BEC
 H = np.eye(N)
 
 # calculate for obs. error covariance(R)
-
 R = np.zeros((N,N))
 for i in range(N):
      R[i,i] = (std_obs_err)**2.
