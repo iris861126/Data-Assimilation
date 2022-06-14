@@ -25,3 +25,5 @@ $$P^b = \alpha E \left(\left[{x_f}^{(t_{2})}-{x_f}^{(t_{1})}\right]\left[{x_f}^{
 NMC法使用多次的預報差值取平均，並加以同質(Homogeneous)及等向 (Isotropic)之假設，得出具有氣候特性的BEC。
 ><img width="440" alt="image" src="https://user-images.githubusercontent.com/52215353/173618090-1cd2ebaa-762f-4d9e-a36f-258b2112a0dc.png">
 >NMC法建立之BEC
+
+## 礙於篇幅，詳細實驗設計及結果部分放在書面報告中。
