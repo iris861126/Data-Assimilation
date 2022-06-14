@@ -15,7 +15,6 @@ nT = int(Tmax/dT)           # number of cycles
 mean_obs_err = 0.
 std_obs_err = 2.
 
-
 #=================
 # setting for NMC
 #=================
@@ -35,7 +34,6 @@ nT_TLM = int(dT/dT_TLM)
 ro_EKF = 1.5                #for multiplicative infla.
 add_factor_infla = 0.       #for additive infla.
 
-
 #===================
 # setting for 4dVar
 #===================
@@ -49,7 +47,6 @@ nT_4dTLM = 2*int(dT/dT_4dTLM)
 num_L_4dTLM = 5
 dT_L_4dTLM = dT_4dTLM/num_L_4dTLM 
 nT_L_4dTLM = int(dT_4dTLM/dT_L_4dTLM)
- 
 
 #==================
 # setting for EnKF
