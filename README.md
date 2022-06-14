@@ -11,7 +11,7 @@
 ><img width="1225" alt="image" src="https://user-images.githubusercontent.com/52215353/173612572-01d3de75-f08d-476c-aa69-f887a0989029.png">
 >形成真值、觀測資料及初始分析場之流程
 
-### 資料同化系統設定
+### 資料同化前置處理
 ><img width="958" alt="image" src="https://user-images.githubusercontent.com/52215353/173625966-dde89405-f366-4602-91b8-bf3c0011c0b9.png">
 >穩態 BEC 產生流程圖(Lien, 2020)
 
