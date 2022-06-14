@@ -9,7 +9,7 @@
 
 $$ \frac{dx_{j}}{dt} = \left( x_{j+1} - x_{j-2}\right)x_{j-1} - x_j + F$$
 
-其中，$j=1,2,...,n$；並令式中，$n=40$且$F=8$，為一封閉環狀分佈。
+其中，$j=1,2,...,n$；並令式中，$n=40$且$F=8$，此為一封閉環狀分佈、以中緯度斜壓波傳遞為概念所設計，可用來描述緯向傳遞的波動。
 ><img width="455" alt="image" src="https://user-images.githubusercontent.com/52215353/173631014-92cbeba1-98a9-4b73-a78f-f66f98fc05f2.png">
 >Lorenz 40-varible model(Lien, 2020)
 
