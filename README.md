@@ -12,16 +12,16 @@
 >形成真值、觀測資料及初始分析場之流程
 
 ### 資料同化系統設定
-><img width="995" alt="image" src="https://user-images.githubusercontent.com/52215353/173615336-e4a47b6e-d858-4c59-af92-8b226f7004de.png">
+><img width="709" alt="image" src="https://user-images.githubusercontent.com/52215353/173625307-047ee6d2-6397-41ed-b997-7f6bbe98e20c.png">
 >穩態 BEC 產生流程圖(Lien, 2020)
 
-><img width="1055" alt="image" src="https://user-images.githubusercontent.com/52215353/173615455-9d89c303-76ed-42c6-946a-0da487785d98.png">
+><img width="745" alt="image" src="https://user-images.githubusercontent.com/52215353/173625502-2d9b5a62-2399-41ac-9ff7-75b025fc8a1a.png">
 >NMC 方法(Lien, 2020)
 
 $$P^b = \alpha E \left(\left[{x_f}^{(t_{2})}-{x_f}^{(t_{1})}\right]\left[{x_f}^{(t_{2})}-{x_f}^{(t_{1})}\right]^T\right) $$
 
 其中，$t_{2}=48hr$、$t_{1}=24hr$、$\alpha$為Rescaling Factor，使其迭代收斂。
 
-NMC使用49次的預報差值取平均，並加以同質(Homogeneous)及等向 (Isotropic)之假設，得出具有氣候特性的BEC。
+此處之NMC法使用49次的預報差值取平均，並加以同質(Homogeneous)及等向 (Isotropic)之假設，得出具有氣候特性的BEC。
 ><img width="440" alt="image" src="https://user-images.githubusercontent.com/52215353/173618090-1cd2ebaa-762f-4d9e-a36f-258b2112a0dc.png">
 >NMC法建立之BEC
