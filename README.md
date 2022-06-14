@@ -5,6 +5,14 @@
 
 ## 模式與資料同化系統之設定
 ### 模式設定
+使用 Lorenz 40-variable model (Lorenz-96 model) (Lorenz, 1996):
+
+$$ \frac{dx_{j}}{dt} = \left( x_{j+1} - x_{j-2}\right)x_{j-1} - x_j + F$$
+
+其中，$j=1,2,...,n$；並令式中，$n=40$且$F=8$，為一封閉環狀分佈。
+><img width="455" alt="image" src="https://user-images.githubusercontent.com/52215353/173631014-92cbeba1-98a9-4b73-a78f-f66f98fc05f2.png">
+>Lorenz 40-varible model(Lien, 2020)
+
 ><img width="1225" alt="image" src="https://user-images.githubusercontent.com/52215353/173612539-911e5a00-03f7-42f0-9d85-6d17ceceb301.png">
 >初始化參數設定
 
