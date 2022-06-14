@@ -59,7 +59,7 @@ for i in range(19):
      R[i,i] = (std_obs_err)**2.
 """
 #===========================================
-#DA process: EnKF
+# DA process: EnKF
 tt = 1    
 while tt <= nT:
     print('EnKF DA process...')
