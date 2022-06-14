@@ -13,7 +13,7 @@ $$ \frac{dx_{j}}{dt} = \left( x_{j+1} - x_{j-2}\right)x_{j-1} - x_j + F$$
 ><img width="455" alt="image" src="https://user-images.githubusercontent.com/52215353/173631014-92cbeba1-98a9-4b73-a78f-f66f98fc05f2.png">
 >Lorenz 40-varible model(Lien, 2020)
 
-後續，以下述之參數設定及流程得出真值、觀測及初始分析場：首先，以一隨機初始場經過spin-up之後存下一筆初始值，作為初始真值;並以相 同的方法存下一筆數據作為初始分析場。 將初始真值以模式積分至預報終點$T_{max} (50 days)$並存下此筆數據作為真值；接著對此真值中的每個點加上無偏差(no bias)、常態分佈的誤差值，作為觀測場。
+後續，以下述之參數設定及流程得出真值、觀測及初始分析場：首先，以一隨機初始場經過spin-up之後存下一筆初始值，作為初始真值;並以相 同的方法存下一筆數據作為初始分析場。 將初始真值以模式積分至預報終點$T_{max}$(50 days)並存下此筆數據作為真值；接著對此真值中的每個點加上無偏差(no bias)、常態分佈的誤差值，作為觀測場。
 ><img width="1225" alt="image" src="https://user-images.githubusercontent.com/52215353/173612539-911e5a00-03f7-42f0-9d85-6d17ceceb301.png">
 >初始化參數設定
 
